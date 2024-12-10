@@ -351,13 +351,19 @@ INT_PTR CALLBACK fVentanaLogin(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam
                 TipoUsuario = cliente->tipoUsuario;
                 clienteComprar = cliente->nombre;
 
-                MessageBox(hwnd, "Inicio de sesión exitoso", "Éxito", MB_OK);
-                EndDialog(hwnd, IDOK);
+                if (cliente->estatus != "Inactivo") {
+                    MessageBox(hwnd, "Inicio de sesión exitoso", "Éxito", MB_OK);
+                    EndDialog(hwnd, IDOK);
 
-                if(TipoUsuario == 1)
-                    DialogBox((HINSTANCE)GetWindowLongPtr(hwnd, GWLP_HINSTANCE), MAKEINTRESOURCE(DLG_DASHBOARD), hwnd, fVentanaDashboard);
-                else
-                    DialogBox((HINSTANCE)GetWindowLongPtr(hwnd, GWLP_HINSTANCE), MAKEINTRESOURCE(DLG_DASHB_USER), hwnd, fVentanaDashboardUser);
+                    if(TipoUsuario == 1)
+                        DialogBox((HINSTANCE)GetWindowLongPtr(hwnd, GWLP_HINSTANCE), MAKEINTRESOURCE(DLG_DASHBOARD), hwnd, fVentanaDashboard);
+                    else
+                        DialogBox((HINSTANCE)GetWindowLongPtr(hwnd, GWLP_HINSTANCE), MAKEINTRESOURCE(DLG_DASHB_USER), hwnd, fVentanaDashboardUser);
+                }
+                else {
+                    MessageBox(hwnd, "Usuario suspendido", "Error", MB_OK);
+                }
+
 
             }
             else {

@@ -1,7 +1,7 @@
 ﻿  Source.cpp
-D:\Practicas\c++\PIA ESTRUCTURA\PIA-estructura\estructura_de_datos_primer_avance\Source.cpp(1261,36): warning C4244: 'initializing': conversion from 'LRESULT' to 'int', possible loss of data
-D:\Practicas\c++\PIA ESTRUCTURA\PIA-estructura\estructura_de_datos_primer_avance\Source.cpp(1265,39): warning C4244: '=': conversion from 'LRESULT' to 'int', possible loss of data
-D:\Practicas\c++\PIA ESTRUCTURA\PIA-estructura\estructura_de_datos_primer_avance\Source.cpp(3304,20): warning C4244: 'initializing': conversion from 'LRESULT' to 'int', possible loss of data
-D:\Practicas\c++\PIA ESTRUCTURA\PIA-estructura\estructura_de_datos_primer_avance\Source.cpp(3315,28): warning C4244: 'initializing': conversion from 'LRESULT' to 'int', possible loss of data
-D:\Practicas\c++\PIA ESTRUCTURA\PIA-estructura\estructura_de_datos_primer_avance\Source.cpp(4271,32): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  estructura_de_datos_primer_avance.vcxproj -> D:\Practicas\c++\PIA ESTRUCTURA\PIA-estructura\x64\Debug\estructura_de_datos_primer_avance.exe
+D:\Practicas\c++\PIA ESTRUCTURA\nuevo pia\PIA-estructura\estructura_de_datos_primer_avance\Source.cpp(1267,36): warning C4244: 'initializing': conversion from 'LRESULT' to 'int', possible loss of data
+D:\Practicas\c++\PIA ESTRUCTURA\nuevo pia\PIA-estructura\estructura_de_datos_primer_avance\Source.cpp(1271,39): warning C4244: '=': conversion from 'LRESULT' to 'int', possible loss of data
+D:\Practicas\c++\PIA ESTRUCTURA\nuevo pia\PIA-estructura\estructura_de_datos_primer_avance\Source.cpp(3310,20): warning C4244: 'initializing': conversion from 'LRESULT' to 'int', possible loss of data
+D:\Practicas\c++\PIA ESTRUCTURA\nuevo pia\PIA-estructura\estructura_de_datos_primer_avance\Source.cpp(3321,28): warning C4244: 'initializing': conversion from 'LRESULT' to 'int', possible loss of data
+D:\Practicas\c++\PIA ESTRUCTURA\nuevo pia\PIA-estructura\estructura_de_datos_primer_avance\Source.cpp(4277,32): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  estructura_de_datos_primer_avance.vcxproj -> D:\Practicas\c++\PIA ESTRUCTURA\nuevo pia\PIA-estructura\x64\Debug\estructura_de_datos_primer_avance.exe
